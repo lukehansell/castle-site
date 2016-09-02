@@ -44,7 +44,7 @@ export default class App extends Component {
 				<Row>
 					<Col xs={12}>
 						<PageHeader style={{textAlign:'center'}}>
-							Luke Hansell
+							Christopher Castle
 						</PageHeader>
 					</Col>
 				</Row>
@@ -54,6 +54,7 @@ export default class App extends Component {
 							<Nav>
 								<Navbar.Text><Link to="/">Home</Link></Navbar.Text>
 								<Navbar.Text><Link to="/about">About</Link></Navbar.Text>
+								<Navbar.Text><Link to="/blog">Blog</Link></Navbar.Text>
 							</Nav>
 						</Navbar>
 					</Col>
@@ -81,7 +82,7 @@ export default class App extends Component {
 					</Col>
 				</Row>
 			</Grid>
-		)	
+		)
 	}
-	
+
 }
